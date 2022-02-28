@@ -1,0 +1,68 @@
+.PageWrapper {
+  height: 500px;
+  /* background: #151d3b; */
+  width: 100%;
+}
+
+.PageWrapper .allEvent {
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.PageWrapper .allEvent .title {
+  margin: 0px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.PageWrapper .allEvent .description {
+  margin: 0px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cardWrapper {
+  background: white;
+  border-radius: 2px;
+  width: 200px;
+  min-width: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.cardWrapper .cardImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #151d3b;
+}
+
+.cardWrapper .cardInfoWrapper {
+  background: #d8d2cb;
+  padding: 10px;
+  height: 100%;
+  max-height: 100px;
+  text-overflow: hidden;
+}
+
+.cardWrapper .cardInfoWrapper .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #151d3b;
+}
+.cardWrapper .cardInfoWrapper .description {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 200;
+  text-overflow: ellipsis;
+  max-height: min-content;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #151d3b;
+}

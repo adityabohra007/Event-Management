@@ -1,0 +1,19 @@
+
+participant Server
+#participant User
+
+Admin -> Server : CreateEvent(start,end,max,title,description)
+Server -> Admin : Created Event( response :200)
+
+#Server -> Admin: Failed to Create Event
+
+User -> Server : Get Events List 
+Server-> User : Take it list of Events(200)
+
+User -> Server : Register me for this (id) Event
+Server -> User : Please pay for your registration 
+User -> Server :Payment Completed 
+Server -> User : Thank you for registration ,redirect to newly registrated event
+
+
+

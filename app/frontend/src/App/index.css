@@ -1,0 +1,38 @@
+body {
+  background-color: #eeeeee;
+  font-family: Roboto;
+}
+p,h1,h2,h3,h4,h5{
+  margin: 0px;
+}
+.mainContainer {
+  height: 100%;
+  margin: auto;
+}
+
+.navbar-wrapper {
+  /* background-color: #1c658c; */
+  background-color: white;
+}
+
+.navbar-wrapper .navbar-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: #398ab9;
+}
+.navbar-wrapper .navbar-container .nav-link {
+  text-decoration: none;
+  height: 64px;
+  font-size: 18px;
+  line-height: 64px;
+  margin-right: 20px;
+  color: #398ab9;
+
+}
+
+.navbar-wrapper .navbar-container nav {
+  /* height: 55px; */
+  margin-left: auto;
+}
