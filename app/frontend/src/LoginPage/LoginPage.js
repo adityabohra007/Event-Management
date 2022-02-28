@@ -35,9 +35,9 @@ class LoginPage extends React.Component {
             flexBasis: "50%",
           }}
         >
-          <strong>Normal User</strong> - U: user P: user
+          <strong>Normal User</strong> - U: user P: userpassword
           <br />
-          <strong>Administrator</strong> - U: admin P: admin
+          <strong>Administrator</strong> - U: admin P: adminpassword
         </div>
         <Formik
           initialValues={{
